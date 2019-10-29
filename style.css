@@ -1,12 +1,16 @@
+/* VARIABLES */
 :root {
     --background-color: lightblue;
     --color: black;
+    --body-color: white;
 }
 
+/* START */
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: var(--body-color);
 }
 
 /* NAVIGATION */
