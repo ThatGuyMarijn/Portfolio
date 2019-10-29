@@ -97,7 +97,7 @@ nav{
         background-color: var(--background-color);
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: left;
         width: 30%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
