@@ -27,6 +27,7 @@ nav{
 
 .nav-links li{
     list-style: none;
+    position: relative;
 }
 
 .nav-link{
@@ -35,26 +36,34 @@ nav{
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 14px;
+    display: inline-block;
     position: relative;
-    transition: transform 0.3s ease-in;
 }
 
+
 /* PRESERVED FOR HOVER UNDERLINE */
-@media screen and (min-width: 1024px){
-    #active-link{
-        border-bottom: solid;
-        border-color: black;
+@media screen and (min-width: 768px){
+    .nav-link:after{
+        bottom: 0;
+        content: '';
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: #000;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+    }
+    
+    .nav-link:hover:after{
+        width: 100%;
+        left: 0;
     }
 }
 
 @media screen and (max-width: 1024px){
     .nav-links{
         width: 50%;
-    }
-    
-    #active-link{
-        border-bottom: solid;
-        border-color: black;
     }
 }
 
