@@ -37,14 +37,13 @@ nav{
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
     display: inline-block;
     position: relative;
 }
 
-
 /* PRESERVED FOR HOVER UNDERLINE */
-@media screen and (min-width: 768px){
+@media screen and (min-width: 769px){
     .nav-link:after{
         bottom: 0;
         content: '';
@@ -60,13 +59,6 @@ nav{
     .nav-link:hover:after{
         width: 100%;
         left: 0;
-    }
-}
-
-/* PC SMALLER WINDOW */
-@media screen and (max-width: 1024px){
-    .nav-links{
-        width: 50%;
     }
 }
 
