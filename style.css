@@ -1,8 +1,9 @@
 /* VARIABLES */
+/* TEMPORARY COLORS */
 :root {
     --background-color: lightblue;
     --color: black;
-    --body-color: white;
+    --body-color: ;
 }
 
 /* START */
@@ -50,7 +51,7 @@ nav{
     position: relative;
 }
 
-/* PRESERVED FOR HOVER UNDERLINE */
+/* HOVER UNDERLINE */
 @media screen and (min-width: 769px){
     .nav-link:after{
         bottom: 0;
@@ -141,7 +142,6 @@ nav{
 /* CONTACT PAGE */
 
 .contact-links {
-    background-color: lightskyblue;
     display: flex;
     justify-content: space-around;
 }
