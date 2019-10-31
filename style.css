@@ -95,7 +95,6 @@ nav{
 @media screen and (max-width: 768px){
     body{
         overflow-x: hidden;
-        overflow: hidden;
     }
 
     .nav-links{
@@ -196,4 +195,10 @@ nav{
 
 .contact-links {
     float: right;
+}
+
+@media screen and (max-width: 400px) {
+    .main-content {
+        width: 100%;
+    }
 }
