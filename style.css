@@ -172,8 +172,8 @@ nav{
 
 
 /* ABOUT PAGE */
-.learning ul {
-    list-style: none;
+.learning li {
+    text-align: left;
 }
 
 /* CONTACT PAGE */
