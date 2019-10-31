@@ -128,7 +128,7 @@ nav{
     }
 
     .logo {
-        margin: 0px 50px;
+        margin: 10px;
     }
 }
 
@@ -165,7 +165,7 @@ nav{
     text-align: center;
     overflow: hidden;
     margin: auto;
-    width: 80%;
+    width: 70%;
 }
 
 /* INDEX PAGE */
