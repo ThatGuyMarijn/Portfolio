@@ -93,7 +93,7 @@ nav{
 
 @media screen and (max-width: 768px){
     /* NA VRAGEN */
-    body {
+    .page-content {
         overflow-x: hidden;
     }
 
@@ -158,11 +158,12 @@ nav{
 
 /* BODY */
 
-.index-content, .about-content, .contact-links {
+.main-content {
     display: block;
     text-align: center;
     overflow: hidden;
-    margin: 30px 30px;
+    margin: auto;
+    width: 50%;
 }
 
 /* INDEX PAGE */
@@ -199,11 +200,5 @@ nav{
     .contact-links img {
         height: 64px;
         width: 64px;
-    }
-
-    .contact-links {
-    }
-
-    .contact-links img {
     }
 }
