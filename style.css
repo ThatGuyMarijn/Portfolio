@@ -162,10 +162,14 @@ nav{
 
 .main-content {
     display: block;
-    text-align: center;
+    text-align: left;
     overflow: hidden;
     margin: auto;
     width: 70%;
+}
+
+.main-content h1, h2, h3, h4 {
+    text-align: center;
 }
 
 /* INDEX PAGE */
