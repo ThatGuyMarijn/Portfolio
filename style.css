@@ -17,10 +17,6 @@ body{
     color: var(--color);
 }
 
-.site-content {
-    position: relative;
-}
-
 /* NAVIGATION */
 nav{
     display: flex;
