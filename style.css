@@ -94,8 +94,10 @@ nav{
 
 @media screen and (max-width: 768px){
     /* NA VRAGEN */
-    html, body{
+    .page-content {
         overflow-x: hidden;
+        position: relative;
+        height: auto;
     }
 
     .nav-links{
