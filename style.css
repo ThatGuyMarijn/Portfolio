@@ -165,7 +165,7 @@ nav{
     text-align: center;
     overflow: hidden;
     margin: auto;
-    width: 50%;
+    width: 80%;
 }
 
 /* INDEX PAGE */
@@ -180,11 +180,10 @@ nav{
 .contact-links ul {
     list-style: none;
     margin-top: 8vw;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 50px 50px;
     display: flex;
     justify-content: space-around;
-    width: 20%;
+    width: 80%;
 }
 
 .contact-links img {
