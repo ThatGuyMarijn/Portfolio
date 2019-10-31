@@ -95,6 +95,7 @@ nav{
 @media screen and (max-width: 768px){
     body{
         overflow-x: hidden;
+        overflow: hidden;
     }
 
     .nav-links{
@@ -122,6 +123,11 @@ nav{
 
     .burger{
         display: block;
+        margin-right: 50px;
+    }
+
+    .logo {
+        margin: 0px 50px;
     }
 }
 
@@ -153,6 +159,8 @@ nav{
 
 .index-content, .about-content, .contact-links {
     text-align: center;
+    overflow: hidden;
+    margin: 30px 30px;
 }
 
 /* INDEX PAGE */
@@ -175,6 +183,7 @@ nav{
 }
 
 .contact-links img {
+    display: block;
     height: 128px;
     width: 128px;
     padding: 60px;
@@ -183,4 +192,8 @@ nav{
 .contact-links p {
     color: white;
     text-decoration: none;
+}
+
+.contact-links {
+    float: right;
 }
