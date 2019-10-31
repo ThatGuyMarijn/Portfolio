@@ -98,6 +98,7 @@ nav{
     }
 
     .nav-links{
+        overflow: hidden;
         position: absolute;
         right: 0;
         height: 40vh;
@@ -197,8 +198,9 @@ nav{
     float: right;
 }
 
-@media screen and (max-width: 400px) {
-    .main-content {
-        width: 100%;
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+        overflow: hidden;
     }
 }
