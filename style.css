@@ -97,7 +97,7 @@ nav{
     .page-content {
         overflow-x: hidden;
         position: relative;
-        height: auto;
+        height: 600px;
     }
 
     .nav-links{
