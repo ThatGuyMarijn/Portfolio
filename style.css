@@ -94,7 +94,7 @@ nav{
 
 @media screen and (max-width: 768px){
     /* NA VRAGEN */
-    body{
+    html, body{
         overflow-x: hidden;
     }
 
@@ -185,7 +185,6 @@ nav{
 }
 
 .contact-links img {
-    display: block;
     height: 128px;
     width: 128px;
     padding: 60px;
@@ -194,8 +193,4 @@ nav{
 .contact-links p {
     color: white;
     text-decoration: none;
-}
-
-.contact-links {
-    float: right;
 }
