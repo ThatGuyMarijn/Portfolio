@@ -1,9 +1,8 @@
 /* VARIABLES */
-/* TEMPORARY COLORS */
 :root {
-    --background-color: lightblue;
-    --color: black;
-    --body-color: ;
+    --background-color: linear-gradient(to right, #B0AB3C, #FCF788);
+    --color: #FCF788;
+    --body-color: linear-gradient(to right, #AD4FB3, #4F5DB3);
 }
 
 /* START */
@@ -11,7 +10,11 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: var(--body-color);
+    background: var(--body-color);
+}
+
+.main-content {
+    color: var(--color);
 }
 
 /* NAVIGATION */
@@ -20,7 +23,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: var(--background-color);
+    background-color: var(--body-color);
 }
 
 .logo{
@@ -60,9 +63,13 @@ nav{
         height: 2px;
         left: 50%;
         position: absolute;
-        background: #000;
+        background: var(--color);
         transition: width 0.3s ease 0s, left 0.3s ease 0s;
         width: 0;
+    }
+
+    .nav-links {
+        width: 50%;
     }
     
     .nav-link:hover:after{
@@ -95,17 +102,22 @@ nav{
         right: 0;
         height: 40vh;
         top: 8vh;
-        background-color: var(--background-color);
+        background-color: #C5A3FF;
         display: flex;
         flex-direction: column;
         align-items: left;
         width: 30%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
+        border: solid 2px;
     }
 
     .nav-links li{
         opacity: 0;
+    }
+
+    .nav-link {
+        color: white;
     }
 
     .burger{
@@ -139,18 +151,36 @@ nav{
     transform: rotate(45deg) translate(-5px, -6px);
 }
 
-/* CONTACT PAGE */
-
-.contact-links {
-    display: flex;
-    justify-content: space-around;
+.index-content, .about-content, .contact-links {
+    text-align: center;
 }
 
-.contact-links ul {
+/* INDEX PAGE */
+
+
+/* ABOUT PAGE */
+.learning ul {
     list-style: none;
 }
 
-.contact-link {
+/* CONTACT PAGE */
+.contact-links ul {
+    list-style: none;
+    margin-top: 8vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.contact-links img {
+    height: 128px;
+    width: 128px;
+    padding: 60px;
+}
+
+.contact-links p {
+    color: white;
     text-decoration: none;
-    color: var(--color);
 }
