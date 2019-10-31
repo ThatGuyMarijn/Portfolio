@@ -93,12 +93,12 @@ nav{
 }
 
 @media screen and (max-width: 768px){
+    /* NA VRAGEN */
     body{
         overflow-x: hidden;
     }
 
     .nav-links{
-        overflow: hidden;
         position: absolute;
         right: 0;
         height: 40vh;
@@ -157,6 +157,8 @@ nav{
     transform: rotate(45deg) translate(-5px, -6px);
 }
 
+/* BODY */
+
 .index-content, .about-content, .contact-links {
     text-align: center;
     overflow: hidden;
@@ -196,11 +198,4 @@ nav{
 
 .contact-links {
     float: right;
-}
-
-@media screen and (max-width: 768px) {
-    body {
-        overflow-x: hidden;
-        overflow: hidden;
-    }
 }
