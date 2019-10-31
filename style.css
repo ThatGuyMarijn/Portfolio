@@ -111,7 +111,7 @@ nav{
         width: 30%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
-        border: solid 2px;
+        border: solid 1px;
     }
 
     .nav-links li{
@@ -209,7 +209,6 @@ nav{
 }
 
 /* FOOTER */
-
 .footer-copyright {
     left: 0;
     bottom: 0;
